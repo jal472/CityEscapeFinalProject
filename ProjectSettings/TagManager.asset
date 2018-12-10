@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - waypoint
+  - exit
+  - monster
+  - monsterSpawn
+  - shop
+  - signBlock1
+  - signBlock4
+  - signBlock2
+  - signBlock3
+  - deadEnd
+  - NPC
+  - endcanvas
+  - hospital
+  - cross
+  - big cross
+  - city
+  - distraction
+  - mainCanvas
+  - sign count
+  - ball count
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 3469536401
+    locked: 0
