@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657725, g: 0.4964143, b: 0.5748176, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465778, g: 0.49641526, b: 0.5748185, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -59233,6 +59233,7 @@ GameObject:
   - component: {fileID: 1522629542}
   - component: {fileID: 1522629546}
   - component: {fileID: 1522629548}
+  - component: {fileID: 1522629547}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: mainCanvas
@@ -59333,6 +59334,17 @@ MonoBehaviour:
   dataScript: {fileID: 0}
   signCounter: {fileID: 0}
   hospitalLightScript: {fileID: 0}
+--- !u!114 &1522629547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1522629541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de144ee2ee4831b4f98fa17b226b1e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1522629548
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -30,7 +30,7 @@ public class GameOverScenarios : MonoBehaviour {
         if (other.transform.tag == "monster" || other.transform.tag == "exit")
         {
             List<string> newList = keepFirstHospital();
-            postMail(newList);
+            // postMail(newList);
             SceneManager.LoadScene(3);
             
 
@@ -58,7 +58,7 @@ public class GameOverScenarios : MonoBehaviour {
         }
         return newList;
     }
-
+    /*
     private void postMail (List<string> data)
     {
         string message = getMessage(data);
@@ -79,8 +79,10 @@ public class GameOverScenarios : MonoBehaviour {
             return true;
         };
         smtpServer.Send(mail);
+        
     }
-
+    */
+    /*
     private string getMessage(List<string> data)
     {
         string tempMessage = "User actions:";
@@ -124,7 +126,7 @@ public class GameOverScenarios : MonoBehaviour {
         tempMessage += "Unaccounted For: " + (80 - (dead + saved));
 
         return tempMessage;
-    }
+    }*/
 
     private int getDeadCount()
     {
